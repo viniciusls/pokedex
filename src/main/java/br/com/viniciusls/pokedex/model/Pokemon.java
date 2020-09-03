@@ -15,6 +15,17 @@ public class Pokemon {
     private String hability;
     private Double weight;
 
+    public Pokemon() {
+    }
+
+    public Pokemon(String id, String name, String category, String hability, Double weight) {
+        this.id = id;
+        this.name = name;
+        this.category = category;
+        this.hability = hability;
+        this.weight = weight;
+    }
+
     public String getId() {
         return id;
     }
